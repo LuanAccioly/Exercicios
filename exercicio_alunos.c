@@ -21,7 +21,7 @@ typedef struct
 
 int main(void) {
   
-  limpartela();
+    limpartela();
   
   TAluno alunos[60];
   int quantidade = 0;
