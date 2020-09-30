@@ -71,6 +71,7 @@ int main(void) {
     printf("\nNome: %s", alunos[i].nome);
     printf("Matrícula: %i", alunos[i].matricula);
     printf("\nMédia: %f", alunos[i].media / 3);
+    printf("\n");
     }
   }
   
