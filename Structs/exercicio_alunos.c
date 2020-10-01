@@ -9,7 +9,7 @@ void limpartela(){
         system("clear");
     #endif
 }
-//123
+
 typedef struct
 {
   char nome[30];
