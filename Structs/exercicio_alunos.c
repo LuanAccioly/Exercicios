@@ -2,14 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 
-void limpartela(){
-  #ifdef _WIN32
-    system("cls");
-    #else
-        system("clear");
-    #endif
-}
-
 typedef struct
 {
   char nome[30];
@@ -18,6 +10,16 @@ typedef struct
   float media;
 
 }TAluno;
+
+void limpartela(){
+  #ifdef _WIN32
+    system("cls");
+    #else
+        system("clear");
+    #endif
+}
+
+
 
 int main(void) {
   
@@ -75,16 +77,7 @@ int main(void) {
     }
   }
   
-  /*
-  printf("\n\n===========================");
-
-    printf("\n\t\tALUNO %i", i+1);
-    printf("\nNome: %s", alunos[i].nome);
-    printf("Matrícula: %i", alunos[i].matricula);
-    printf("\nMédia: %f", alunos[i].media / 3);
-
-    // printf("\n\n===========================");
-  */
+  
   
 
   return 0;
